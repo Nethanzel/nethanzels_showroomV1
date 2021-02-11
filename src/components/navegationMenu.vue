@@ -5,8 +5,8 @@
         <img  src="../assets/logo.svg" alt="logo" id="logo" class="link">
     </router-link>
 
-    <router-link to="/timeline">
-        <p>Timeline</p>
+    <router-link to="/about">
+        <p>About me</p>
     </router-link>
 
     <router-link to="/projects">
@@ -17,8 +17,8 @@
         <p>My skills</p>
     </router-link>
 
-    <router-link to="/about">
-        <p>About me</p>
+    <router-link to="/timeline">
+        <p>Timeline</p>
     </router-link>
 
     <router-link to="/contact">
