@@ -187,7 +187,7 @@ export default {
 .skill {
   mix-blend-mode: difference;
   will-change: opacity;
-  padding-top: 60px;
+  padding-top: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,6 +205,13 @@ export default {
 h1 {
   margin-bottom: 25px;
   cursor: default;
+  position: fixed;
+  padding-top: 60px;
+  text-align: center;
+  width: 100%;
+  background: #000;
+  top: 0;
+  letter-spacing: 3px;
 }
 
 .skillIcon {

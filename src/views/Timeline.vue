@@ -93,6 +93,7 @@ h1 {
   width: 100%;
   background: #000;
   top: 0;
+  cursor: default;
 }
 
 h2 {
