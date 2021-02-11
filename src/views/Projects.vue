@@ -1,7 +1,7 @@
 <template>
     <div class="project">
     <headeR />
-      <h1>Nethanzel's projects.</h1>
+      <h1>Nethanzêl's projects.</h1>
 
       <section class="projectCont">
         <img src="../assets/projects/project.png" alt="project logo" class="projectLogo">

@@ -2,7 +2,7 @@
   <div class="timeline">
     <headeR />
     <div>
-      <h1>My timeline throught out the technology field.</h1>
+      <h1>Nethanzêl's timeline.</h1>
 
         <div class="event_ last">
             <div>
@@ -85,7 +85,6 @@ export default {
 }
 
 h1 {
-  font-size: 35px;
   letter-spacing: 3px;
   position: fixed;
   padding-top: 60px;

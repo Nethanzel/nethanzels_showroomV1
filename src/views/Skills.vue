@@ -1,7 +1,7 @@
 <template>
   <div class="skill">
     <headeR />
-      <h1>Nethanzel's skills.</h1>
+      <h1>Nethanzêl's skills.</h1>
       <div class="skillCont">
         <h2>Technical knowledge of:</h2>
 
