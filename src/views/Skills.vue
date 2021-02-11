@@ -132,7 +132,7 @@
         </div>
         <div class="iconCont">
           <img src="../assets/abilities/persist.png" class="skillIcon">
-          <p>Persistent</p>
+          <p>Persistence</p>
         </div>
 
         <div class="iconCont">

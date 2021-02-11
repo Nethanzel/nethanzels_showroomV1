@@ -6,15 +6,15 @@
     </router-link>
 
     <router-link to="/about">
-        <p>About me</p>
+        <p>About</p>
     </router-link>
 
     <router-link to="/projects">
-        <p>My projects</p>
+        <p>Projects</p>
     </router-link>
 
     <router-link to="/skills">
-        <p>My skills</p>
+        <p>Skills</p>
     </router-link>
 
     <router-link to="/timeline">

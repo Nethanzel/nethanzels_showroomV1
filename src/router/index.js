@@ -52,10 +52,7 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes,
-  scrollBehavior () {
-    return { x: 0, y: 0 }
-  }
+  routes
 });
 
 function getRandomArbitrary(min, max) {
@@ -68,6 +65,7 @@ let rotate;
 
 // eslint-disable-next-line no-unused-vars
 router.beforeEach((to, from, next) => {
+
   rotate = document.getElementById("gBackground")
   let oAng = ang;
   ang = getRandomArbitrary(0, 5); //pick one option
@@ -75,12 +73,15 @@ router.beforeEach((to, from, next) => {
   while(ang == oAng) { //your option can't be the one you picked before
     ang = getRandomArbitrary(0, 5);
   }
+
   if(rotate != null) {
     if(to.name == "Home") {
       rotate.style.transform = `rotate(0deg)`
     } else rotate.style.transform = `rotate(${x[ang]}deg)`
-
   }
+// ================================================================================
+  setTimeout(() => { window.scrollTo(0, 0) }, 600);
+// ================================================================================
   next()
 }) 
 

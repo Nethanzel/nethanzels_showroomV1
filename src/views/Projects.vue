@@ -59,17 +59,17 @@
 
               <div class="iconCont">
                 <img src="../assets/skills/bootstrap.png" class="skillIcon">
-                <p>Sass</p>
+                <p>Bootstrap</p>
               </div>
 
               <div class="iconCont">
                 <img src="../assets/skills/mysql.png" class="skillIcon">
-                <p>JavaScript</p>
+                <p>My SQL</p>
               </div>
 
               <div class="iconCont">
                 <img src="../assets/skills/vb.png" class="skillIcon">
-                <p>NodeJS</p>
+                <p>Basic .NET</p>
               </div>
 
             </div>
@@ -98,17 +98,17 @@
 
               <div class="iconCont">
                 <img src="../assets/skills/css.png" class="skillIcon">
-                <p>Sass</p>
+                <p>CSS</p>
               </div>
 
               <div class="iconCont">
                 <img src="../assets/skills/ejs.png" class="skillIcon">
-                <p>JavaScript</p>
+                <p>EJS</p>
               </div>
 
               <div class="iconCont">
                 <img src="../assets/skills/socketio.png" class="skillIcon">
-                <p>NodeJS</p>
+                <p>Socket.IO</p>
               </div>
 
             </div>
@@ -162,14 +162,15 @@ export default {
 }
 
 h1 {
-  margin-bottom: 25px;
   letter-spacing: 3px;
   position: fixed;
   padding-top: 60px;
+  padding-bottom: 10px;
   text-align: center;
   width: 100%;
   background: #000;
   top: 0;
+  cursor: default;
   z-index: 10;
 }
 

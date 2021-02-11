@@ -8,16 +8,18 @@
       <thisHeader />
     </div>
     <div id="headText">
-        <h1 id="title">Nethanzêl Abad</h1>
-        <p>Web developer (Front end/Back end).</p>
-        <p>Desktop developer.</p>
-        <p>Close to graduate Systems and computing engenieer.</p>
+      <h1 id="title">Nethanzêl Abad</h1>
+      <p>Web developer (Front end/Back end).</p>
+      <p>Desktop developer.</p>
+      <p>Close to graduate Systems and computing engenieer.</p>
     </div>
 
     <transition name="fade" mode="out-in">
       <router-view/>
     </transition>
+
   </div>
+
 </template>
 
 <script>
@@ -70,7 +72,7 @@ export default {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: .8s;
+  transition-duration: .6s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
