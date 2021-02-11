@@ -52,7 +52,10 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior () {
+    return { x: 0, y: 0 }
+  }
 });
 
 function getRandomArbitrary(min, max) {
@@ -62,6 +65,7 @@ function getRandomArbitrary(min, max) {
 let x = [0, 90, 180, 270, 360]; //define your options
 let ang;
 let rotate;
+
 // eslint-disable-next-line no-unused-vars
 router.beforeEach((to, from, next) => {
   rotate = document.getElementById("gBackground")
