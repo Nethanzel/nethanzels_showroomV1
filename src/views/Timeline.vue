@@ -4,7 +4,7 @@
     <div>
       <h1>My timeline throught out the technology field.</h1>
 
-        <div class="event">
+        <div class="event_ last">
             <div>
                 <img src="../assets/achievement/milestone.png" class="ach_icon">
                 <h2>Title for this event</h2>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="event_">
+        <div class="event_ first">
             <div>
                 <img src="../assets/achievement/milestone.png" class="ach_icon">
                 <h2>Title for this event</h2>
@@ -122,6 +122,14 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 98vw;
+}
+
+.last {
+    background-image: url("../assets/timelinebg_last.png");
+}
+
+.first {
+    background-image: url("../assets/timelinebg_first.png");
 }
 
 .event div {
