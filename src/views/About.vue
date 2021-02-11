@@ -97,7 +97,7 @@ export default {
   width: 75%;
   height: auto;
   padding: 15px 10px;
-  background: #99999923;
+  background: #99999944;
   margin: 15px 0;
   height: 200px;
 }

@@ -37,7 +37,7 @@
           </div>
 
           <div class="projFooter">
-            <p>Get this porject on Github</p>photoshop
+            <p>Get this porject on Github</p>
           </div>
         </div>
       </section>
@@ -118,7 +118,7 @@ export default {
   flex-direction: column;
   align-items: center;
 
-  background: #99999923;
+  background: #99999944;
   margin: 20px 0;
 }
 

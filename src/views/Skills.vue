@@ -128,7 +128,7 @@
 
         <div class="iconCont">
           <img src="../assets/abilities/patience.png" class="skillIcon">
-          <p>Patient</p>
+          <p>Patience</p>
         </div>
         <div class="iconCont">
           <img src="../assets/abilities/persist.png" class="skillIcon">
@@ -157,12 +157,12 @@
 
         <div class="iconCont">
           <img src="../assets/abilities/bold.png" class="skillIcon">
-          <p>Bold</p>
+          <p>Attitude</p>
         </div>
 
         <div class="iconCont">
           <img src="../assets/abilities/neat.png" class="skillIcon">
-          <p>Neat</p>
+          <p>Organized</p>
         </div>
 
       </div>
@@ -198,7 +198,7 @@ export default {
   width: 75%;
   height: auto;
   padding: 15px 10px;
-  background: #99999923;
+  background: #99999944;
   margin-bottom: 30px;
 }
 

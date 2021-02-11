@@ -55,7 +55,7 @@ export default {
 }
 
 #img {
-  width: 45vw;
+  width: 60vw;
   transition: opacity 2s;
 
   position: fixed;

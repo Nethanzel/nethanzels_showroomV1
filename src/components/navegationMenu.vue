@@ -5,6 +5,10 @@
         <img  src="../assets/logo.svg" alt="logo" id="logo" class="link">
     </router-link>
 
+    <router-link to="/timeline">
+        <p>Timeline</p>
+    </router-link>
+
     <router-link to="/projects">
         <p>My projects</p>
     </router-link>
@@ -56,7 +60,7 @@ p:hover {
 
 a {
     text-decoration: none;
-    margin-right: 40px;
+    margin-right: 10px;
     padding: 3px 15px;
     cursor: default;
     transition: .5s;
