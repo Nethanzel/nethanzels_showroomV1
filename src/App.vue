@@ -199,6 +199,12 @@ h1 {
     font-size: 11px;
   }
 
+  h1 {
+  font-size: 40px;
+  }
+
+  
+
 }
 
 

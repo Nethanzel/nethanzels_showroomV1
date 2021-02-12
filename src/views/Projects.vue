@@ -257,4 +257,47 @@ h1 {
   opacity: .3;
   transition: opacity .5s;
 }
+
+
+@media screen and (max-width: 770px) {
+    
+  .project {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+  }
+
+  .projectCont {
+    border: 2px solid #fff;
+    width: 75%;
+    height: auto;
+    padding: 15px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #99999944;
+    margin: 20px 0;
+  }
+
+  h1 {
+    letter-spacing: 3px;
+    position: fixed;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 0px;
+    width: 100%;
+    background: #000;
+    top: 0;
+    cursor: default;
+    z-index: 10;
+  }
+
+}
+
 </style>

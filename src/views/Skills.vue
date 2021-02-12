@@ -2,7 +2,7 @@
   <div class="skill">
     <headeR />
       <h1>Nethanzêl's skills.</h1>
-      <div class="skillCont">
+      <div class="skillCont topDiv">
         <h2>Technical knowledge of:</h2>
 
         <div class="iconCont">
@@ -102,7 +102,7 @@
 
       </div>
 
-      <div class="skillCont">
+      <div class="skillCont lastDiv">
 
         <h2>Working abilities:</h2>
 
@@ -257,4 +257,281 @@ h2 {
   opacity: .3;
   transition: opacity .5s;
 }
+
+@media screen and (max-width: 770px) {
+
+  .skill {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topDiv {
+    margin-top: 65px;
+  }
+
+  .skillCont {
+    border: 2px solid #fff;
+    width: 75%;
+    height: auto;
+    padding: 10px 10px;
+    background: #99999944;
+    margin-bottom: 30px;
+  }
+
+  .lastDiv {
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+  }
+
+  .skillIcon {
+    height: 65px;
+    width: 65px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: cover;
+    transition: opacity .7s;
+  }
+
+  .iconCont {
+    display: inline-flex;
+    margin: 10px 15px;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .iconCont p {
+    position: absolute;
+    opacity: 0;
+    cursor: default;
+    font-weight: bold;
+    font-size: 17px;
+    text-overflow: clip;
+    transition: opacity 1s;
+  }
+}
+
+@media screen and (max-width: 670px) {
+
+  .skill {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topDiv {
+    margin-top: 65px;
+  }
+
+  .skillCont {
+    border: 2px solid #fff;
+    width: 75%;
+    height: auto;
+    padding: 10px 10px;
+    background: #99999944;
+    margin-bottom: 30px;
+  }
+
+  .lastDiv {
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+  }
+
+  .skillIcon {
+    height: 55px;
+    width: 55px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: cover;
+    transition: opacity .7s;
+  }
+
+  .iconCont {
+    display: inline-flex;
+    margin: 10px 15px;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .iconCont p {
+    position: absolute;
+    opacity: 0;
+    cursor: default;
+    font-weight: bold;
+    font-size: 17px;
+    text-overflow: clip;
+    transition: opacity 1s;
+  }
+}
+
+@media screen and (max-width: 615px) {
+
+  .skill {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topDiv {
+    margin-top: 65px;
+  }
+
+  .skillCont {
+    border: 2px solid #fff;
+    width: 75%;
+    height: auto;
+    padding: 10px 10px;
+    background: #99999944;
+    margin-bottom: 30px;
+  }
+
+  .lastDiv {
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+  }
+
+  .skillIcon {
+    height: 50px;
+    width: 50px;
+    margin: 0 12px;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: cover;
+    transition: opacity .7s;
+  }
+
+  .iconCont {
+    display: inline-flex;
+    margin: 7px 12px;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .iconCont p {
+    position: absolute;
+    opacity: 0;
+    cursor: default;
+    font-weight: bold;
+    font-size: 15px;
+    text-overflow: clip;
+    transition: opacity 1s;
+  }
+}
+
+@media screen and (max-width: 525px) {
+
+  .skill {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topDiv {
+    margin-top: 65px;
+  }
+
+  .skillCont {
+    border: 2px solid #fff;
+    width: 75%;
+    height: auto;
+    padding: 10px 10px;
+    background: #99999944;
+    margin-bottom: 30px;
+  }
+
+  .lastDiv {
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+  }
+
+  .skillIcon {
+    height: 50px;
+    width: 50px;
+    margin: 0 7px;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: cover;
+    transition: opacity .7s;
+  }
+
+  .iconCont {
+    display: inline-flex;
+    margin: 5px 7px;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .iconCont p {
+    position: absolute;
+    opacity: 0;
+    cursor: default;
+    font-weight: bold;
+    font-size: 13px;
+    text-overflow: clip;
+    transition: opacity 1s;
+  }
+}
+
 </style>

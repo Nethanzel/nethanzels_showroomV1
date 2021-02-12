@@ -106,7 +106,6 @@ p:hover {
     color: rgb(99, 99, 99);
     cursor: pointer;
     transition: .3s;
-
 }
 
 a {
@@ -116,6 +115,7 @@ a {
     cursor: default;
     transition: .5s;
 }
+
 .router-link-exact-active p {
     font-weight: bold;
     border: 1px solid #fff;
@@ -262,7 +262,6 @@ a {
         display: flex;
     }
 }
-
 
 @media screen and (max-width: 550px) {
 

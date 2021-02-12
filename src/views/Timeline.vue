@@ -82,6 +82,7 @@ export default {
   mix-blend-mode: difference;
   will-change: opacity;
   padding-top: 80px;
+  height: auto;
 }
 
 h1 {
@@ -109,7 +110,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 98vw;
+    width: 100vw;
 }
 
 .event_ {
@@ -121,7 +122,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 98vw;
+    width: 100vw;
 }
 
 .last {
@@ -183,6 +184,304 @@ h2 {
 
 .ev_date {
     font-style: italic;
+}
+
+@media screen and (max-width: 770px) {
+    .timeline {
+        mix-blend-mode: difference;
+        will-change: opacity;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    h1 {
+        letter-spacing: 3px;
+        position: fixed;
+        padding-top: 0px;
+        text-align: center;
+        width: 100%;
+        background: #000;
+        top: 0;
+        cursor: default;
+    }
+
+    
+    h2 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .event {
+        padding: none;
+        background-image: url("../assets/timelinebg_.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+     }
+
+    .event_ {
+        padding: none;
+        background-image: url("../assets/timelinebg.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .last {
+        background-image: url("../assets/timelinebg_last.png");
+    }
+
+    .first {
+        background-image: url("../assets/timelinebg_first.png");
+    }
+
+    .event div {
+        position: relative;
+        background: #99999944;
+        height: 428px;
+        width: 428px;
+        border-radius: 50%;
+        left: -3px;
+        top: -4px;
+        margin: 80px 0;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event_ div {
+        position: relative;
+        background: #99999944;
+        height: 428px;
+        width: 428px;
+        border-radius: 50%;
+        left: -3px;
+        top: -4px;
+        margin: 80px 0;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .timeline {
+        mix-blend-mode: difference;
+        will-change: opacity;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    h1 {
+        letter-spacing: 3px;
+        position: fixed;
+        padding-top: 0px;
+        text-align: center;
+        width: 100%;
+        background: #000;
+        top: 0;
+        cursor: default;
+    }
+
+    
+    h2 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .event {
+        padding: none;
+        background-image: url("../assets/timelinebg_.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vw;
+     }
+
+    .event_ {
+        padding: none;
+        background-image: url("../assets/timelinebg.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .last {
+        background-image: url("../assets/timelinebg_last.png");
+    }
+
+    .first {
+        background-image: url("../assets/timelinebg_first.png");
+    }
+
+    .event div {
+        position: relative;
+        background: #99999944;
+        height: 72%;
+        width: 73%;
+        border-radius: 50%;
+        left: -3px;
+        top: -4px;
+        margin: 38px 0;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event_ div {
+        position: relative;
+        background: #99999944;
+        height: 72%;
+        width: 73%;
+        border-radius: 50%;
+        left: -3px;
+        top: -4px;
+        margin: 38px 0;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .event p {
+        margin-top: 5px;
+    }
+
+    .event_ p {
+        margin-top: 5px;
+    }
+
+    .ach_icon {
+        background: #fff;
+        height: 130px;
+        border-radius: 50%;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        object-fit: cover;
+    }
+
+    .ev_date {
+        font-style: italic;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+
+    h1 {
+        letter-spacing: 3px;
+        position: fixed;
+        padding-top: 0px;
+        text-align: center;
+        width: 100%;
+        background: #000;
+        top: 0;
+        cursor: default;
+        font-size: 39px;
+    }
+
+    .event p {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .event_ p {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .ach_icon {
+        background: #fff;
+        height: 130px;
+        border-radius: 50%;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        object-fit: cover;
+    }
+
+    .ev_date {
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    h1 {
+        letter-spacing: 3px;
+        position: fixed;
+        padding-top: 0px;
+        text-align: center;
+        width: 100%;
+        background: #000;
+        top: 0;
+        cursor: default;
+        font-size: 32px;
+    }
+
+    .event p {
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .event_ p {
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .ach_icon {
+        background: #fff;
+        height: 120px;
+        border-radius: 50%;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        object-fit: cover;
+    }
+
+    .ev_date {
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
 }
 
 </style>

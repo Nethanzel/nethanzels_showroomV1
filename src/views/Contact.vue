@@ -116,7 +116,7 @@ textarea:focus {
 #contactForm {
   display: flex;
   flex-direction: column;
-  padding: 0 100px;
+  padding: 0 30px;
 }
 
 .btnParent {
@@ -138,5 +138,33 @@ textarea:focus {
   color: #000;
   cursor: pointer;
   transition: .3s;
+}
+
+@media screen and (max-width: 770px) {
+
+  .contact {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 0px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .infoCont {
+    border: 2px solid #fff;
+    width: 85%;
+    height: auto;
+    background: #99999944;
+    padding: 10px 10px;
+  }
+
+  #contactForm {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+  }
 }
 </style>
