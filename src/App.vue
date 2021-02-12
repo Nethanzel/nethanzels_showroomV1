@@ -7,6 +7,7 @@
     <div id="head">
       <thisHeader />
     </div>
+
     <div id="headText">
       <h1 id="title">Nethanzêl Abad</h1>
       <p>Web developer (Front end/Back end).</p>
@@ -68,7 +69,7 @@ export default {
   left: -9998px;
   right: -9998px;
   margin: auto; 
-  }
+}
 
 .fade-enter-active,
 .fade-leave-active {
@@ -83,7 +84,7 @@ export default {
 }
 
 #title {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: bold;
   transition: 0.5s ease-in-out;
   mix-blend-mode: difference;
@@ -119,6 +120,7 @@ export default {
   transition: all 0.5s ease-in-out;
 }
 
+
 h1 {
   font-size: 50px;
 }
@@ -153,4 +155,52 @@ h1 {
     transition: all 0.5s ease-in-out;
   }
 }
+
+@media screen and (max-width: 770px) {
+
+  #title {
+    font-size: 47px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    mix-blend-mode: difference;
+    color: #fff;
+  }
+
+  #head {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 320px;
+    visibility: hidden;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #headText {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 390px;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #headText p {
+    font-size: 11px;
+  }
+
+}
+
+
+
 </style>
