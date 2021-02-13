@@ -10,9 +10,9 @@
 
     <div id="headText">
       <h1 id="title">Nethanzêl Abad</h1>
-      <p>Web developer (Front end/Back end).</p>
-      <p>Desktop developer.</p>
       <p>Close to graduate Systems and computing engenieer.</p>
+      <p>Web developer (Front end {{expChar}} Back end).</p>
+      <p>Desktop developer.</p>
     </div>
 
     <transition name="fade" mode="out-in">
@@ -31,6 +31,11 @@ export default {
   title: "Nethanzêl's Showroom",
   components: {
     thisHeader
+  },
+  data() {
+    return {
+      expChar: "&"
+    }
   }
 }
 </script>

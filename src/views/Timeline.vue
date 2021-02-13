@@ -112,7 +112,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 98vw;
 
     max-width: 1366px;
     margin: 0 auto;
@@ -127,7 +127,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 98vw;
 
     max-width: 1366px;
     margin: 0 auto;
