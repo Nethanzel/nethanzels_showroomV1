@@ -207,7 +207,7 @@ a {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 780px) {
 
     #nav {
         top: calc(100vh - 50px);
@@ -392,7 +392,7 @@ a {
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 430px) {
 
     #nav {
         position: fixed;

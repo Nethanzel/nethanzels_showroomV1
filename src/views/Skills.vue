@@ -2,6 +2,7 @@
   <div class="skill">
     <headeR />
       <h1>Nethanzêl's skills.</h1>
+
       <div class="skillCont topDiv">
         <h2>Technical knowledge of:</h2>
 
@@ -191,6 +192,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .skillCont {
@@ -466,7 +468,6 @@ h2 {
 }
 
 @media screen and (max-width: 525px) {
-
   .skill {
     mix-blend-mode: difference;
     will-change: opacity;
@@ -475,13 +476,14 @@ h2 {
     flex-direction: column;
     align-items: center;
   }
+
   .topDiv {
     margin-top: 65px;
   }
 
   .skillCont {
     border: 2px solid #fff;
-    width: 75%;
+    width: 85%;
     height: auto;
     padding: 10px 10px;
     background: #99999944;
@@ -531,6 +533,31 @@ h2 {
     font-size: 13px;
     text-overflow: clip;
     transition: opacity 1s;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .skillCont {
+    border: 2px solid #fff;
+    width: 90%;
+    height: auto;
+    padding: 10px 0px;
+    background: #99999944;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 37px;
   }
 }
 

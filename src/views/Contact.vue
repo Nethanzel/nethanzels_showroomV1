@@ -50,6 +50,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .infoCont {
@@ -140,7 +141,7 @@ textarea:focus {
   transition: .3s;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 780px) {
 
   .contact {
     mix-blend-mode: difference;
@@ -166,5 +167,38 @@ textarea:focus {
     flex-direction: column;
     padding: 0 30px;
   }
+
+  .btn {
+    padding: 5px 30px;
+    transition: .5s;
+    background: #000;
+    color: rgb(99, 99, 99);
+    border: 1px solid #fff;
+  }
+  .btn:active {
+    padding: 5px 30px;
+    transition: .6s;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: .3s;
+  }
 }
+
+@media screen and (max-height: 595px) {
+
+  .contact {
+    mix-blend-mode: difference;
+    will-change: opacity;
+    padding-top: 60px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+  }
+
+}
+
 </style>

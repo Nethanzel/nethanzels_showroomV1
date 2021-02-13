@@ -94,6 +94,8 @@ h1 {
   background: #000;
   top: 0;
   cursor: default;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -111,6 +113,9 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 100vw;
+
+    max-width: 1366px;
+    margin: 0 auto;
 }
 
 .event_ {
@@ -123,6 +128,9 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 100vw;
+
+    max-width: 1366px;
+    margin: 0 auto;
 }
 
 .last {
@@ -186,7 +194,7 @@ h2 {
     font-style: italic;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 780px) {
     .timeline {
         mix-blend-mode: difference;
         will-change: opacity;
@@ -482,6 +490,51 @@ h2 {
         font-size: 22px;
         letter-spacing: 2px;
     }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 31.5px;
+  }
 }
 
 </style>

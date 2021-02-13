@@ -1,6 +1,6 @@
 <template>
     <div class="project">
-    <headeR />
+      <headeR />
       <h1>Nethanzêl's projects.</h1>
 
       <section class="projectCont">
@@ -145,6 +145,7 @@ export default {
   flex-direction: column;
   align-items: center;
   cursor: default;
+  margin-bottom: 50px;
 }
 
 .projectCont {
@@ -258,7 +259,6 @@ h1 {
   transition: opacity .5s;
 }
 
-
 @media screen and (max-width: 770px) {
     
   .project {
@@ -298,6 +298,51 @@ h1 {
     z-index: 10;
   }
 
+}
+
+@media screen and (max-width: 445px) {
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  h1 {
+    margin-bottom: 25px;
+    cursor: default;
+    position: fixed;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    top: 0;
+    letter-spacing: 3px;
+    font-size: 30px;
+  }
 }
 
 </style>

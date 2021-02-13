@@ -50,6 +50,7 @@ export default {
 #app {
   text-align: center;
   max-width: 1366px;
+  margin: 0 auto;
 }
 
 #gBackground {
@@ -102,6 +103,9 @@ export default {
   justify-content: flex-end;
   align-items: center;
   transition: all 0.5s ease-in-out;
+
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 #headText {
@@ -118,6 +122,9 @@ export default {
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 
